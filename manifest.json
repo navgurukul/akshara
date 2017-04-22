@@ -17,7 +17,7 @@
     {
       "matches": [
         "https://www.google.co.in/*",
-        "http://www.google.com/*"
+        "https://www.google.com/*"
       ],
       "css": ["css/readosort.css"],
       "js": ["js/readosort.js"]
