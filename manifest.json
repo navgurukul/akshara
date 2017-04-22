@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Read-o-sort",
+  "description": "Sorting the web on both english complexity and score.",
+  "version": "0.1",
+
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.co.in/*",
+        "http://www.google.com/*"
+      ],
+      "css": ["css/readosort.css"],
+      "js": ["js/readosort.js"]
+    }
+  ]
+
+}
