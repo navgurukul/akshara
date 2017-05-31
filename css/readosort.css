@@ -1,0 +1,18 @@
+.readabilityScore {
+    float: right;
+}
+.readabilityScore.level1 {
+    color: #00FF00;
+}
+.readabilityScore.level2 {
+    color: #7FFF00;
+}
+.readabilityScore.level3 {
+    color: #FFFF00;
+}
+.readabilityScore.level4 {
+    color: #FFFF00;
+}
+.readabilityScore.level5 {
+    color: #FF0000;
+}
